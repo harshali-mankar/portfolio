@@ -1,11 +1,13 @@
 {
-  "name": "nextjs",
+ /* "homepage": "https://harshali-mankar.github.io/portfolio",*/
+  "name": "harshali-porfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
+    
   },
   "dependencies": {
     "axios": "^0.21.1",
