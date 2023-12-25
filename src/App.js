@@ -1,6 +1,8 @@
 import "./App.css";
+//"version": "5.3.2"
 import "bootstrap/dist/css/bootstrap.css";
 import NavScrollExample from "./nav";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import imgTag from "./../src/harshali-mankar.png";
 function App() {
   return (
@@ -12,14 +14,21 @@ function App() {
         <section className="scroll-panel" id="home">
           <div className="banner">
             <div className="container">
-              <div className="row">
-                <div className="col-xs-12 col-md-8 col-md-offset-2" id="banner">
-                  <h1 id="banner-name">ORJIEWURU KINGDOM ISAAC</h1>
+              <div className="row d-flex justify-content-center">
+                <div className="col-xs-12 col-md-8 " id="banner">
+                  <h1 id="banner-name scrollspyHeading1">Frontend Developer</h1>
                   <p className="lead">
-                    A full-stack web developer with extensive experience in
-                    front-end design/development, back-end development, data
-                    visualization, systems integration, relational database
-                    systems using SQL and MongoDB.
+                    I am a full-stack{" "}
+                    <strong>
+                      frontend developer in Binate IT Services Pvt Ltd.
+                    </strong>{" "}
+                    Currently, I am{" "}
+                    <strong>building an e-commerce website</strong> and have
+                    more experience in making more <strong>API calls.</strong>{" "}
+                    Its frontend development is based on{" "}
+                    <strong>
+                      react, typescript, and bootstrap frameworks.
+                    </strong>
                   </p>
                 </div>
               </div>
@@ -29,24 +38,30 @@ function App() {
         <div className="container">
           <section className="scroll-panel" id="about">
             <div className="row">
-              <h2 className="text-center title">ABOUT ME</h2>
+              <h2 className="text-center title" id="scrollspyHeading2">
+                ABOUT ME
+              </h2>
               <div className="col-xs-12 col-md-6">
                 <img
                   src={imgTag}
                   alt="Harshali Mankar, Website developer near Vasai-Virar"
                 />
 
-                <p className="lead text-center">
+                {/* <p className="lead text-center">
                   @ Elegushi Beach, Lekki, Lagos - March 2016
-                </p>
+                </p> */}
               </div>
               <div className="col-xs-12 col-md-6" id="about_col">
                 <h3 className="text-center title">A little about me</h3>
                 <p className="lead">
-                  My name is Kingdom Isaac Orjiewuru, a front-end web developer.
-                  Am interested in making surfing fun by creating engaging user
-                  interfaces and responsive websites. Here a bit about my
-                  skills:
+                  My name is <strong>Harshali Mankar,</strong> a front-end web
+                  developer. Am interested in making surfing fun by creating
+                  engaging user interfaces and responsive websites.
+                </p>
+
+                <p className="lead">
+                  Before this, I had a teaching role in IT subject for 10 years.
+                  Here a bit about my skills:
                 </p>
               </div>
             </div>
@@ -56,7 +71,7 @@ function App() {
                 <p className="lead text-center">HTML</p>
                 <div className="progress">
                   <div
-                    className="progress-bar progress-bar-primary progress-bar-striped active"
+                    className="progress-bar bg-primary progress-bar-animated progress-bar-striped active"
                     role="progressbar"
                     aria-valuenow={45}
                     aria-valuemin={0}
@@ -69,7 +84,7 @@ function App() {
                 <p className="lead text-center">CSS</p>
                 <div className="progress">
                   <div
-                    className="progress-bar progress-bar-success progress-bar-striped active"
+                    className="progress-bar progress-bar-animated bg-success progress-bar-striped active"
                     role="progressbar"
                     aria-valuenow={45}
                     aria-valuemin={0}
@@ -82,7 +97,7 @@ function App() {
                 <p className="lead text-center">JavaScript</p>
                 <div className="progress">
                   <div
-                    className="progress-bar progress-bar-warning progress-bar-striped active"
+                    className="progress-bar progress-bar-animated bg-warning progress-bar-striped active"
                     role="progressbar"
                     aria-valuenow={45}
                     aria-valuemin={0}
@@ -95,7 +110,7 @@ function App() {
                 <p className="lead text-center">jQuery</p>
                 <div className="progress">
                   <div
-                    className="progress-bar progress-bar-danger progress-bar-striped active"
+                    className="progress-bar progress-bar-animated bg-danger progress-bar-striped active"
                     role="progressbar"
                     aria-valuenow={45}
                     aria-valuemin={0}
@@ -110,7 +125,7 @@ function App() {
                 <p className="lead text-center">AJAX</p>
                 <div className="progress">
                   <div
-                    className="progress-bar progress-bar-danger progress-bar-striped active"
+                    className="progress-bar bg-danger progress-bar-animated progress-bar-striped active"
                     role="progressbar"
                     aria-valuenow={45}
                     aria-valuemin={0}
@@ -123,7 +138,7 @@ function App() {
                 <p className="lead text-center">Node.js</p>
                 <div className="progress">
                   <div
-                    className="progress-bar progress-bar-warning progress-bar-striped active"
+                    className="progress-bar bg-warning progress-bar-animated progress-bar-striped active"
                     role="progressbar"
                     aria-valuenow={45}
                     aria-valuemin={0}
@@ -136,7 +151,7 @@ function App() {
                 <p className="lead text-center">Express.js</p>
                 <div className="progress">
                   <div
-                    className="progress-bar progress-bar-success progress-bar-striped active"
+                    className="progress-bar bg-success progress-bar-animated progress-bar-striped active"
                     role="progressbar"
                     aria-valuenow={45}
                     aria-valuemin={0}
@@ -149,7 +164,7 @@ function App() {
                 <p className="lead text-center">React.js</p>
                 <div className="progress">
                   <div
-                    className="progress-bar progress-bar-primary progress-bar-striped active"
+                    className="progress-bar bg-primary progress-bar-animated progress-bar-striped active"
                     role="progressbar"
                     aria-valuenow={45}
                     aria-valuemin={0}
@@ -164,7 +179,9 @@ function App() {
           </section>
           <section className="scroll-panel" id="portfolio">
             <div className="row">
-              <h2 className="text-center title">PORTFOLIO</h2>
+              <h2 className="text-center title" id="scrollspyHeading3">
+                PORTFOLIO
+              </h2>
               <div className="space" />
               <div className="col-xs-12 col-md-4">
                 <div className="thumbnail">
@@ -262,7 +279,9 @@ function App() {
           </section>
           <section className="scroll-panel" id="contact">
             <div className="row">
-              <h2 className="text-center title">CONTACT ME</h2>
+              <h2 className="text-center title" id="scrollspyHeading4">
+                CONTACT ME
+              </h2>
               <div className="space" />
               <div className="col-xs-12 col-md-8">
                 <form role="form">
@@ -339,27 +358,32 @@ function App() {
                 <li className="facebook">
                   <a
                     target="_blank"
-                    href="https://www.facebook.com/kingdom.isaac"
+                    href="https://www.facebook.com/learnreactwithharshali"
                   >
                     <i className="fa fa-facebook" />
                   </a>
                 </li>
-                <li className="twitter">
+                <li className="youtube">
                   <a target="_blank" href="#">
-                    <i className="fa fa-twitter" />
+                    <i className="fa fa-youtube" />
                   </a>
                 </li>
-                <li className="googleplus">
+                {/* <li className="googleplus">
                   <a target="_blank" href="#">
                     <i className="fa fa-google-plus" />
+                  </a>
+                </li> */}
+                <li className="instagram">
+                  <a target="_blank" href="#">
+                    <i className="fa fa-instagram" />
                   </a>
                 </li>
                 <li className="linkedin">
                   <a
                     target="_blank"
-                    href="https://www.linkedin.com/in/kingdomisaac"
+                    href="https://www.linkedin.com/in/harshali-mankar-108258269"
                   >
-                    <i className="fa fa-linkedin" />
+                    <FontAwesomeIcon icon={["fab", "github"]} />
                   </a>
                 </li>
               </ul>
@@ -367,10 +391,10 @@ function App() {
           </div>
         </div>
         <div className="space" />
-        <div className="footer" id="scrollspyHeading1">
+        <div className="footer">
           <p className="text-center">
-            Written and coded by <a href="#">Kingdom Isaac</a> © 2016 All Rights
-            Reserved
+            Written and coded by <a href="#">Harshali Mankar</a> © 2023 All
+            Rights Reserved
           </p>
         </div>
       </>
