@@ -201,42 +201,6 @@ function App() {
                   </a>
                 </div>
               </div>
-              <div className="col-xs-12 col-md-4">
-                <div className="thumbnail">
-                  <p className="lead text-center">My Portfolio</p>
-                  <img
-                    src="https://preview.ibb.co/cgrb1k/portfolio_zpszpddezkz.png"
-                    className="images"
-                  />
-                  <a
-                    id="links"
-                    href="https://codepen.io/kingisaac95/full/AXrpVr/"
-                    target="_blank"
-                  >
-                    <button className="btn btn-default btn-block">
-                      View Project
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <div className="col-xs-12 col-md-4">
-                <div className="thumbnail">
-                  <p className="lead text-center">Calladom Solutions Ltd.</p>
-                  <img
-                    src="https://preview.ibb.co/e3CKnQ/calladom.png"
-                    className="images"
-                  />
-                  <a
-                    id="links"
-                    href="https://kingisaac95.github.io/calladom/"
-                    target="_blank"
-                  >
-                    <button className="btn btn-default btn-block">
-                      View Project
-                    </button>
-                  </a>
-                </div>
-              </div>
             </div>
             <div className="row">
               <div className="col-xs-12 col-md-4">
