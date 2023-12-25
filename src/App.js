@@ -1,7 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import NavScrollExample from "./nav";
-
+import imgTag from "./../src/harshali-mankar.png";
 function App() {
   return (
     // https://getbootstrap.com/docs/5.1/components/scrollspy/#scrollspyHeading2
@@ -32,9 +32,10 @@ function App() {
               <h2 className="text-center title">ABOUT ME</h2>
               <div className="col-xs-12 col-md-6">
                 <img
-                  src="./harshali-mankar.png"
+                  src={imgTag}
                   alt="Harshali Mankar, Website developer near Vasai-Virar"
                 />
+
                 <p className="lead text-center">
                   @ Elegushi Beach, Lekki, Lagos - March 2016
                 </p>
