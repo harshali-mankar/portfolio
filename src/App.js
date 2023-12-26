@@ -18,17 +18,8 @@ function App() {
                 <div className="col-xs-12 col-md-8 " id="banner">
                   <h1 id="banner-name scrollspyHeading1">Frontend Developer</h1>
                   <p className="lead">
-                    I am a full-stack{" "}
-                    <strong>
-                      frontend developer in Binate IT Services Pvt Ltd.
-                    </strong>{" "}
-                    Currently, I am{" "}
-                    <strong>building an e-commerce website</strong> and have
-                    more experience in making more <strong>API calls.</strong>{" "}
-                    Its frontend development is based on{" "}
-                    <strong>
-                      react, typescript, and bootstrap frameworks.
-                    </strong>
+
+                  I am a <strong>Frontend React Developer</strong> in Binate IT Services Pvt Ltd. Currently, <strong>sworking on e-commerce website. It is based on react JS, typescript, and bootstrap frameworks.</strong>
                   </p>
                 </div>
               </div>
@@ -53,16 +44,14 @@ function App() {
               </div>
               <div className="col-xs-12 col-md-6" id="about_col">
                 <h3 className="text-center title">A little about me</h3>
-                <p className="lead">
-                  My name is <strong>Harshali Mankar,</strong> a front-end web
-                  developer. Am interested in making surfing fun by creating
-                  engaging user interfaces and responsive websites.
-                </p>
 
-                <p className="lead">
-                  Before this, I had a teaching role in IT subject for 10 years.
-                  Here a bit about my skills:
-                </p>
+                <p className="lead">My name is Harshali Shailesh Mankar, a Frontend React Developer.</p>
+
+
+                <p className="lead">With a keen eye for design and a passion for creating seamless user experiences, I bring a blend of creativity and technical expertise to every project. Proficient in HTML, CSS, and JavaScript, I thrive on translating design concepts into responsive and interactive websites. Constantly staying abreast of emerging technologies, I am dedicated to delivering cutting-edge solutions that elevate the overall user engagement and satisfaction.</p>
+
+                <p className="lead">In addition to my Frontend development skills, I bring a decade of teaching experience in the field. My extensive background in education has allowed me to effectively convey complex technical concepts to learners, fostering a collaborative and engaging learning environment.</p>
+
               </div>
             </div>
             <div className="row">
