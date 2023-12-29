@@ -1,5 +1,5 @@
-# https://www.robotstxt.org/robotstxt.html
 
+https://harshali-mankar.github.io/portfolio/
 sitemap: https://harshali-mankar.github.io/portfolio/sitemap.xml
 User-agent: *
 Disallow:
