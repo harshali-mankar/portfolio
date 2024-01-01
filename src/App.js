@@ -3,7 +3,15 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import NavScrollExample from "./nav";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {faFacebook } from '@fortawesome/free-solid-svg-icons';
+import { faYoutube, faLinkedin, faInstagram, faFacebook, faGithub, faFontAwesome } from '@fortawesome/free-brands-svg-icons'
+
+
 import imgTag from "./../src/harshali-mankar.png";
+import portfolio1 from "./../src/saawree.jpg";
+import Contact from "./contact-from";
+
+
 function App() {
   return (
     // https://getbootstrap.com/docs/5.1/components/scrollspy/#scrollspyHeading2
@@ -11,7 +19,7 @@ function App() {
       <>
         {/* https://react-bootstrap.netlify.app/docs/components/navbar/# */}
         <NavScrollExample />
-        <section className="scroll-panel" id="home">
+        <section className="scroll-panel mt-md-4" id="home">
           <div className="banner">
             <div className="container">
               <div className="row d-flex justify-content-center">
@@ -27,9 +35,9 @@ function App() {
           </div>
         </section>
         <div className="container">
-          <section className="scroll-panel" id="about">
+          <section className="scroll-panel  mt-4" id="about">
             <div className="row">
-              <h2 className="text-center title" id="scrollspyHeading2">
+              <h2 className="text-center title mb-4" id="scrollspyHeading2">
                 ABOUT ME
               </h2>
               <div className="col-xs-12 col-md-6">
@@ -43,7 +51,7 @@ function App() {
                 </p> */}
               </div>
               <div className="col-xs-12 col-md-6" id="about_col">
-                <h3 className="text-center title">A little about me</h3>
+                <h3 className="text-center title mb-4">A little about me</h3>
 
                 <p className="lead">My name is Harshali Shailesh Mankar, a Frontend React Developer.</p>
 
@@ -55,7 +63,7 @@ function App() {
               </div>
             </div>
             <div className="row">
-              <h3 className="text-center title">My Skills</h3>
+              <h3 className="text-center title mb-4">My Skills</h3>
               <div className="col-xs-12 col-md-6">
                 <p className="lead text-center">HTML</p>
                 <div className="progress">
@@ -96,6 +104,37 @@ function App() {
                     <span className="sr-only">JavaScript 85%</span>
                   </div>
                 </div>
+
+              </div>
+              <div className="col-xs-12 col-md-6">
+
+                <p className="lead text-center">Node.js</p>
+                <div className="progress">
+                  <div
+                    className="progress-bar bg-warning progress-bar-animated progress-bar-striped active"
+                    role="progressbar"
+                    aria-valuenow={45}
+                    aria-valuemin={0}
+                    aria-valuemax={100}
+                    style={{ width: "80%" }}
+                  >
+                    <span className="sr-only">Node.js 80%</span>
+                  </div>
+                </div>
+
+                <p className="lead text-center">React.js</p>
+                <div className="progress">
+                  <div
+                    className="progress-bar bg-primary progress-bar-animated progress-bar-striped active"
+                    role="progressbar"
+                    aria-valuenow={45}
+                    aria-valuemin={0}
+                    aria-valuemax={100}
+                    style={{ width: "80%" }}
+                  >
+                    <span className="sr-only">React.js 80%</span>
+                  </div>
+                </div>
                 <p className="lead text-center">jQuery</p>
                 <div className="progress">
                   <div
@@ -110,78 +149,24 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="col-xs-12 col-md-6">
-                <p className="lead text-center">AJAX</p>
-                <div className="progress">
-                  <div
-                    className="progress-bar bg-danger progress-bar-animated progress-bar-striped active"
-                    role="progressbar"
-                    aria-valuenow={45}
-                    aria-valuemin={0}
-                    aria-valuemax={100}
-                    style={{ width: "80%" }}
-                  >
-                    <span className="sr-only">AJAX 80%</span>
-                  </div>
-                </div>
-                <p className="lead text-center">Node.js</p>
-                <div className="progress">
-                  <div
-                    className="progress-bar bg-warning progress-bar-animated progress-bar-striped active"
-                    role="progressbar"
-                    aria-valuenow={45}
-                    aria-valuemin={0}
-                    aria-valuemax={100}
-                    style={{ width: "80%" }}
-                  >
-                    <span className="sr-only">Node.js 80%</span>
-                  </div>
-                </div>
-                <p className="lead text-center">Express.js</p>
-                <div className="progress">
-                  <div
-                    className="progress-bar bg-success progress-bar-animated progress-bar-striped active"
-                    role="progressbar"
-                    aria-valuenow={45}
-                    aria-valuemin={0}
-                    aria-valuemax={100}
-                    style={{ width: "80%" }}
-                  >
-                    <span className="sr-only">Express.js 80%</span>
-                  </div>
-                </div>
-                <p className="lead text-center">React.js</p>
-                <div className="progress">
-                  <div
-                    className="progress-bar bg-primary progress-bar-animated progress-bar-striped active"
-                    role="progressbar"
-                    aria-valuenow={45}
-                    aria-valuemin={0}
-                    aria-valuemax={100}
-                    style={{ width: "80%" }}
-                  >
-                    <span className="sr-only">React.js 80%</span>
-                  </div>
-                </div>
-              </div>
             </div>
           </section>
-          <section className="scroll-panel" id="portfolio">
+          <section className="scroll-panel mt-4" id="portfolio">
             <div className="row">
-              <h2 className="text-center title" id="scrollspyHeading3">
+              <h2 className="text-center title mb-4" id="scrollspyHeading3">
                 PORTFOLIO
               </h2>
-              <div className="space" />
+              
               <div className="col-xs-12 col-md-4">
                 <div className="thumbnail">
-                  <p className="lead text-center">Tribute Page</p>
+                  <p className="lead text-center">Saawree</p>
                   <img
-                    src="https://preview.ibb.co/m6eUMk/steve_jobs_new_zpsm86aps6x.jpg"
-                    className="images"
-                  />
+                  src={portfolio1}
+                  alt="Harshali Mankar, Website developer near Vasai-Virar"
+                />
                   <a
                     id="links"
-                    href="https://codepen.io/kingisaac95/full/VjbpQA/"
+                    href="https://saawree.com"
                     target="_blank"
                   >
                     <button className="btn btn-default btn-block">
@@ -191,104 +176,19 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="row">
-              <div className="col-xs-12 col-md-4">
-                <div className="thumbnail">
-                  <p className="lead text-center">Simple Login Page</p>
-                  <img
-                    src="https://preview.ibb.co/jp0Qu5/login_zpsibwapeh8.png"
-                    className="images"
-                  />
-                  <a
-                    id="links"
-                    href="https://codepen.io/kingisaac95/full/mEGbGv/"
-                    target="_blank"
-                  >
-                    <button className="btn btn-default btn-block">
-                      View Project
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <div className="col-xs-12 col-md-4">
-                <div className="thumbnail">
-                  <p className="lead text-center">Random Quote Machine</p>
-                  <img
-                    src="https://preview.ibb.co/gvh5u5/random_quote_zpshghdcmqx.png"
-                    className="images"
-                  />
-                  <a
-                    id="links"
-                    href="https://codepen.io/kingisaac95/full/ZBXQmo/"
-                    target="_blank"
-                  >
-                    <button className="btn btn-default btn-block">
-                      View Project
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
+
           </section>
-          <section className="scroll-panel" id="contact">
+          <section className="scroll-panel mt-4" id="contact">
             <div className="row">
-              <h2 className="text-center title" id="scrollspyHeading4">
+              <h2 className="text-center title mb-4" id="scrollspyHeading4">
                 CONTACT ME
               </h2>
-              <div className="space" />
+              
               <div className="col-xs-12 col-md-8">
-                <form role="form">
-                  <div className="form-group has-feedback">
-                    <label className="sr-only" htmlFor="name2">
-                      Name
-                    </label>
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="name2"
-                      placeholder="Name"
-                      name="name2"
-                      required=""
-                    />
-                    <i className="fa fa-user form-control-feedback" />
-                  </div>
-                  <div className="form-group has-feedback">
-                    <label className="sr-only" htmlFor="email2">
-                      Email address
-                    </label>
-                    <input
-                      type="email"
-                      className="form-control"
-                      id="email2"
-                      placeholder="Enter email"
-                      name="email2"
-                      required=""
-                    />
-                    <i className="fa fa-envelope form-control-feedback" />
-                  </div>
-                  <div className="form-group has-feedback">
-                    <label className="sr-only" htmlFor="message2">
-                      Message
-                    </label>
-                    <textarea
-                      className="form-control"
-                      rows={8}
-                      id="message2"
-                      placeholder="Describe your project"
-                      name="message2"
-                      required=""
-                      defaultValue={""}
-                    />
-                    <i className="fa fa-pencil form-control-feedback" />
-                  </div>
-                  <input
-                    type="submit"
-                    defaultValue="Send"
-                    className="btn btn-default btn-block"
-                  />
-                </form>
+
+                <Contact/>
               </div>
-              <div className="col-xs-12 col-md-4">
+              <div className="col-xs-12 col-md-4 mt-3 mt-md-0">
                 <p className="lead">
                   Wanna get in touch with me? Be it a project idea you wanna
                   develop, to request more info about myself or my experience,
@@ -298,55 +198,52 @@ function App() {
               </div>
             </div>
           </section>
-          <div className="space" />
-          <div className="row social">
+          
+          <div className="row social mt-5">
             <div className="col-xs-12 col-md-6">
               <h2>Connect with me</h2>
               <p className="lead">
                 What is life without connection? Let's social-media-connect!
               </p>
             </div>
-            <div className="col-xs-12 col-md-6">
-              <ul className="social-links">
-                <li className="facebook">
-                  <a
+        
+       
+              <div className="p-4 text-center w-100 d-flex justify-content-center justify-content-md-start gap-3 display-5">
+              
+                  <a className="facebook"
                     target="_blank"
                     href="https://www.facebook.com/learnreactwithharshali"
                   >
-                    <i className="fa fa-facebook" />
+                    <FontAwesomeIcon icon={faFacebook} color="#316FF6" />
+                    
                   </a>
-                </li>
-                <li className="youtube">
-                  <a target="_blank" href="#">
-                    <i className="fa fa-youtube" />
+         
+                  <a className="youtube" target="_blank" href="http://www.youtube.com/@learnreactwithharshali">
+                  <FontAwesomeIcon icon={faYoutube} color="#CD201F" />
                   </a>
-                </li>
-                {/* <li className="googleplus">
-                  <a target="_blank" href="#">
-                    <i className="fa fa-google-plus" />
+               
+                  <a className="linkedin" target="_blank" href="https://www.linkedin.com/in/harshali-mankar-108258269">
+                  <FontAwesomeIcon icon={faLinkedin} color="#0077b5" />
                   </a>
-                </li> */}
-                <li className="instagram">
-                  <a target="_blank" href="#">
-                    <i className="fa fa-instagram" />
+              
+               
+                  <a className="instagram" target="_blank" href="https://www.instagram.com/learnreactwithharshali">
+                  <FontAwesomeIcon icon={faInstagram} color="#fccc63"/>
                   </a>
-                </li>
-                <li className="linkedin">
-                  <a
-                    target="_blank"
-                    href="https://www.linkedin.com/in/harshali-mankar-108258269"
-                  >
-                    <FontAwesomeIcon icon={["fab", "github"]} />
+        
+                  <a className="github" target="_blank" href="https://harshali-mankar.github.io/portfolio">
+                  <FontAwesomeIcon icon={faGithub} color="#24292e"/>
                   </a>
-                </li>
-              </ul>
-            </div>
+             
+
+              </div>
+              
           </div>
         </div>
-        <div className="space" />
-        <div className="footer">
+        
+        <div className="footer mt-5">
           <p className="text-center">
-            Written and coded by <a href="#">Harshali Mankar</a> © 2023 All
+            Written and coded by <a href="https://harshali-mankar.github.io/portfolio">Harshali Mankar</a> © 2023 All
             Rights Reserved
           </p>
         </div>

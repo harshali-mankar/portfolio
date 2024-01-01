@@ -8,15 +8,16 @@ function NavScrollExample() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary" sticky="top">
       <Container fluid>
-        <div className="navbar-header d-flex w-100 justify-content-between">
+        <div className="navbar-header d-flex justify-content-between">
           <Navbar.Brand href="#">My Portfolio</Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" className="ml-auto" />
+          {/* <Navbar.Toggle aria-controls="navbarScroll" className="ml-auto" /> */}
         </div>
-        <Navbar.Collapse id="navbarScroll">
+        {/* <Navbar.Collapse id="navbarScroll"> */}
+        <Navbar>
           <Nav
             className=" my-2 my-lg-0 "
-            style={{ maxHeight: "100px" }}
-            navbarScroll
+            // style={{ maxHeight: "100px" }}
+            // navbarScroll
           >
             <Nav.Link href="#scrollspyHeading1">Home</Nav.Link>
             <Nav.Link href="#scrollspyHeading2">About Me</Nav.Link>
@@ -36,7 +37,7 @@ function NavScrollExample() {
               Link
             </Nav.Link> */}
           </Nav>
-        </Navbar.Collapse>
+        </Navbar>
       </Container>
     </Navbar>
   );
