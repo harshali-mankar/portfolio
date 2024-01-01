@@ -8,7 +8,7 @@ function NavScrollExample() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary" sticky="top">
       <Container fluid>
-        <div className="navbar-header d-flex justify-content-between">
+        <div className="navbar-header d-flex d-none d-md-block">
           <Navbar.Brand href="#">My Portfolio</Navbar.Brand>
           {/* <Navbar.Toggle aria-controls="navbarScroll" className="ml-auto" /> */}
         </div>
