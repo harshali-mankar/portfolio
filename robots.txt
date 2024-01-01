@@ -1,3 +1,4 @@
-# https://www.robotstxt.org/robotstxt.html
+
+sitemap: https://harshali-mankar.github.io/portfolio/sitemap.xml
 User-agent: *
 Disallow:
