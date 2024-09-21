@@ -22,7 +22,9 @@ function NavScrollExample() {
             <Nav.Link href="#scrollspyHeading1">Home</Nav.Link>
             <Nav.Link href="#scrollspyHeading2">About Me</Nav.Link>
             <Nav.Link href="#scrollspyHeading3">Portfolio</Nav.Link>
-            <Nav.Link href="#scrollspyHeading4">Contact</Nav.Link>
+            <Nav.Link href="#scrollspyHeading4">Certification Courses</Nav.Link>
+            <Nav.Link href="#scrollspyHeading5">Contact</Nav.Link>
+
             {/* <NavDropdown title="Link" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
