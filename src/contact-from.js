@@ -25,8 +25,8 @@ const Contact = () => {
   return (
     <Form ref={form} onSubmit={handleSubmitEmail} className="mb-3">
       <Form.Group
-        ref={form}
-        onSubmit={handleSubmitEmail}
+        // ref={form}
+        // onSubmit={handleSubmitEmail}
         className="mb-3"
         //controlId="harshalimankar8@gmail.com"
       >
