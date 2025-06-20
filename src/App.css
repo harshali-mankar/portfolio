@@ -36,3 +36,458 @@
     transform: rotate(360deg);
   }
 }
+
+/* Animated Background with Tech Icons */
+.animated-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+  background: linear-gradient(
+    135deg,
+    rgba(102, 126, 234, 0.1) 0%,
+    rgba(118, 75, 162, 0.1) 100%
+  );
+}
+
+.floating-icon {
+  position: absolute;
+  opacity: 0.15;
+  animation: float 20s infinite linear;
+  font-size: 2rem;
+  color: #333;
+  pointer-events: none;
+}
+
+.floating-icon:nth-child(1) {
+  top: 10%;
+  left: 10%;
+  animation-delay: 0s;
+  animation-duration: 25s;
+}
+.floating-icon:nth-child(2) {
+  top: 20%;
+  left: 80%;
+  animation-delay: 2s;
+  animation-duration: 30s;
+}
+.floating-icon:nth-child(3) {
+  top: 60%;
+  left: 20%;
+  animation-delay: 4s;
+  animation-duration: 28s;
+}
+.floating-icon:nth-child(4) {
+  top: 80%;
+  left: 70%;
+  animation-delay: 6s;
+  animation-duration: 32s;
+}
+.floating-icon:nth-child(5) {
+  top: 30%;
+  left: 50%;
+  animation-delay: 8s;
+  animation-duration: 26s;
+}
+.floating-icon:nth-child(6) {
+  top: 70%;
+  left: 90%;
+  animation-delay: 10s;
+  animation-duration: 29s;
+}
+.floating-icon:nth-child(7) {
+  top: 15%;
+  left: 30%;
+  animation-delay: 12s;
+  animation-duration: 27s;
+}
+.floating-icon:nth-child(8) {
+  top: 50%;
+  left: 80%;
+  animation-delay: 14s;
+  animation-duration: 31s;
+}
+.floating-icon:nth-child(9) {
+  top: 85%;
+  left: 15%;
+  animation-delay: 16s;
+  animation-duration: 24s;
+}
+.floating-icon:nth-child(10) {
+  top: 40%;
+  left: 10%;
+  animation-delay: 18s;
+  animation-duration: 33s;
+}
+.floating-icon:nth-child(11) {
+  top: 25%;
+  left: 90%;
+  animation-delay: 20s;
+  animation-duration: 26s;
+}
+.floating-icon:nth-child(12) {
+  top: 75%;
+  left: 40%;
+  animation-delay: 22s;
+  animation-duration: 28s;
+}
+.floating-icon:nth-child(13) {
+  top: 90%;
+  left: 60%;
+  animation-delay: 24s;
+  animation-duration: 30s;
+}
+.floating-icon:nth-child(14) {
+  top: 5%;
+  left: 70%;
+  animation-delay: 26s;
+  animation-duration: 25s;
+}
+.floating-icon:nth-child(15) {
+  top: 65%;
+  left: 5%;
+  animation-delay: 28s;
+  animation-duration: 32s;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(100vh) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.25;
+  }
+  90% {
+    opacity: 0.25;
+  }
+  100% {
+    transform: translateY(-100px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+/* Add subtle rotation animation */
+.floating-icon {
+  animation: float 20s infinite linear, rotate 15s infinite linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Ensure content is readable over animated background */
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Add subtle glass effect to cards */
+.card {
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Enhanced banner styling */
+.banner {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  margin: 20px 0;
+  padding: 30px 0;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Banner text styling for better visibility */
+.banner h1 {
+  color: #2c3e50;
+  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.8);
+  font-weight: 700;
+}
+
+.banner .lead {
+  color: #34495e;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+}
+
+/* Responsive adjustments for animated background */
+@media (max-width: 768px) {
+  .floating-icon {
+    font-size: 1.5rem;
+  }
+
+  .floating-icon:nth-child(1) {
+    animation-duration: 20s;
+  }
+  .floating-icon:nth-child(2) {
+    animation-duration: 25s;
+  }
+  .floating-icon:nth-child(3) {
+    animation-duration: 22s;
+  }
+  .floating-icon:nth-child(4) {
+    animation-duration: 27s;
+  }
+  .floating-icon:nth-child(5) {
+    animation-duration: 21s;
+  }
+  .floating-icon:nth-child(6) {
+    animation-duration: 24s;
+  }
+  .floating-icon:nth-child(7) {
+    animation-duration: 23s;
+  }
+  .floating-icon:nth-child(8) {
+    animation-duration: 26s;
+  }
+  .floating-icon:nth-child(9) {
+    animation-duration: 19s;
+  }
+  .floating-icon:nth-child(10) {
+    animation-duration: 28s;
+  }
+  .floating-icon:nth-child(11) {
+    animation-duration: 21s;
+  }
+  .floating-icon:nth-child(12) {
+    animation-duration: 23s;
+  }
+  .floating-icon:nth-child(13) {
+    animation-duration: 25s;
+  }
+  .floating-icon:nth-child(14) {
+    animation-duration: 20s;
+  }
+  .floating-icon:nth-child(15) {
+    animation-duration: 27s;
+  }
+}
+
+/* Carousel Arrow Styling */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 123, 255, 0.8);
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 2px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.carousel-control-prev {
+  left: -25px;
+}
+
+.carousel-control-next {
+  right: -25px;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(0, 123, 255, 1);
+  transform: translateY(-50%) scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) invert(1);
+}
+
+/* Mobile responsive carousel navigation */
+@media (max-width: 768px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 123, 255, 0.9);
+  }
+
+  .carousel-control-prev {
+    left: 10px;
+  }
+
+  .carousel-control-next {
+    right: 10px;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  /* Improve carousel indicators for mobile */
+  .carousel-indicators {
+    bottom: -40px;
+  }
+
+  .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 3px;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 576px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 35px;
+    height: 35px;
+  }
+
+  .carousel-control-prev {
+    left: 5px;
+  }
+
+  .carousel-control-next {
+    right: 5px;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 14px;
+    height: 14px;
+  }
+
+  .carousel-indicators {
+    bottom: -35px;
+  }
+
+  .carousel-indicators button {
+    width: 8px;
+    height: 8px;
+    margin: 0 2px;
+  }
+}
+
+/* Compact styling for sections */
+.scroll-panel {
+  margin-bottom: 2rem;
+}
+
+.title {
+  margin-bottom: 1.5rem !important;
+}
+
+.contact-info {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 0.375rem;
+  border-left: 4px solid #007bff;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.contact-info strong {
+  color: #495057;
+}
+
+/* Skills section compact styling */
+#skills .card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#skills .card-header {
+  border-bottom: none;
+}
+
+#skills .badge {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+}
+
+/* About section compact styling */
+#about_col .lead {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+#about_col ul {
+  padding-left: 1.2rem;
+}
+
+#about_col li {
+  margin-bottom: 0.25rem;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .floating-icon {
+    font-size: 1.5rem;
+  }
+
+  .floating-icon:nth-child(1) {
+    animation-duration: 20s;
+  }
+  .floating-icon:nth-child(2) {
+    animation-duration: 25s;
+  }
+  .floating-icon:nth-child(3) {
+    animation-duration: 22s;
+  }
+  .floating-icon:nth-child(4) {
+    animation-duration: 27s;
+  }
+  .floating-icon:nth-child(5) {
+    animation-duration: 21s;
+  }
+  .floating-icon:nth-child(6) {
+    animation-duration: 24s;
+  }
+  .floating-icon:nth-child(7) {
+    animation-duration: 23s;
+  }
+  .floating-icon:nth-child(8) {
+    animation-duration: 26s;
+  }
+  .floating-icon:nth-child(9) {
+    animation-duration: 19s;
+  }
+  .floating-icon:nth-child(10) {
+    animation-duration: 28s;
+  }
+  .floating-icon:nth-child(11) {
+    animation-duration: 21s;
+  }
+  .floating-icon:nth-child(12) {
+    animation-duration: 23s;
+  }
+  .floating-icon:nth-child(13) {
+    animation-duration: 25s;
+  }
+  .floating-icon:nth-child(14) {
+    animation-duration: 20s;
+  }
+  .floating-icon:nth-child(15) {
+    animation-duration: 27s;
+  }
+
+  .contact-info {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .scroll-panel {
+    margin-bottom: 1.5rem;
+  }
+}
