@@ -79,6 +79,30 @@ function App() {
                     responsive web applications. Specializing in React, Next.js,
                     Angular, Node.js, and modern web technologies.
                   </p>
+
+                  {/* Resume Download and Video Introduction Section */}
+                  <div className="row mt-4">
+                    <div className="col-12 mb-3 d-flex gap-3 justify-content-center">
+                      <a
+                        href="https://drive.google.com/file/d/1aCZbe52kKwxnfHh_Z2yijegVJeimPe0j/view?usp=drive_link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-primary btn-sm"
+                      >
+                        <i className="fas fa-download me-2"></i>
+                        Download Resume
+                      </a>
+                      <a
+                        href="https://www.youtube.com/watch?v=p6oKKv6beFs"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-danger btn-sm"
+                      >
+                        <i className="fab fa-youtube me-2"></i>
+                        Watch Video Introduction
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
