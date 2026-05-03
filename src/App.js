@@ -190,34 +190,49 @@ function App() {
                     <p className="card-text">
                       <ul>
                         <li>
-                          Initially worked on an Angular-based project for ~2 months after joining,
-                          contributing to frontend development and understanding enterprise workflows.
+                          <strong>Angular Experience:</strong> Worked on an Angular-based project for ~2 months after joining, contributing to frontend development and understanding enterprise workflows.
                         </li>
                         <li>
-                          Currently focused on building scalable applications using React, Next.js, and TypeScript.
+                          <strong>Frontend Development:</strong> Currently building scalable applications using React, Next.js, and TypeScript.
                         </li>
                         <li>
-                          Developing DGCA-compliant aviation crew management systems.
+                          <strong>Domain Expertise:</strong> Developing DGCA-compliant aviation crew management systems.
                         </li>
                         <li>
-                          Built modules for flight duty tracking, training management, and fleet data handling.
+                          <strong>Module Development:</strong> Built modules for flight duty tracking, training management, and fleet data handling.
                         </li>
                         <li>
-                          Designed and implemented admin panels with validations, reporting features, and secure authentication.
+                          <strong>Admin Panels:</strong> Designed and implemented admin panels with validations, reporting, and secure authentication.
                         </li>
                         <li>
-                          Integrated APIs using Swagger/OpenAPI for efficient frontend-backend communication.
+                          <strong>API Integration:</strong> Integrated APIs using Swagger/OpenAPI for seamless frontend-backend communication.
                         </li>
                         <li>
-                          Collaborated with clients and cross-functional teams for feature delivery.
+                          <strong>Hiring & Mentorship:</strong> Conducted interviews for interns, evaluated candidates, and onboarded suitable talent.
+                        </li>
+                        <li>
+                          <strong>Code Review:</strong> Reviewed and improved interns' project code to ensure code quality, best practices, and performance optimization.
+                        </li>
+                        <li>
+                          <strong>Client Interaction:</strong> Participated in client meetings (office and on-site), gathered requirements, and contributed to solution discussions.
+                        </li>
+                        <li>
+                          <strong>Collaboration:</strong> Worked closely with cross-functional teams and clients to deliver features aligned with business goals.
                         </li>
                       </ul>
-                      <h4>Skill Enhancement & Learning</h4>
+
+                      <h4><strong>Skill Enhancement & Learning</strong></h4>
 
                       <ul>
-                        <li>Working with MongoDB and PostgreSQL to strengthen backend/database skills.</li>
-                        <li>Exploring cross-platform development using Flutter.</li>
-                        <li>Currently preparing for AWS Certification (learning cloud architecture & services).</li>
+                        <li>
+                          <strong>Databases:</strong> Hands-on with MongoDB and PostgreSQL.
+                        </li>
+                        <li>
+                          <strong>Mobile Development:</strong> Exploring Flutter for cross-platform apps.
+                        </li>
+                        <li>
+                          <strong>Cloud:</strong> Preparing for AWS Certification (learning cloud architecture & services).
+                        </li>
                       </ul>
                     </p>
                   </div>
