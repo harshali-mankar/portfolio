@@ -19,7 +19,6 @@ import portfolio3 from "./../src/akeshya.png";
 import portfolio4 from "./../src/trainx.png";
 import portfolio5 from "./../src/flyX.jpeg";
 import portfolio6 from "./../src/vims.jpeg";
-import portfolio7 from "./../src/codingkeeda.png";
 
 
 function App() {
