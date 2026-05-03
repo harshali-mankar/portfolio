@@ -74,10 +74,17 @@ function App() {
                     Full-Stack Developer
                   </h1>
                   <p className="lead">
-                    A proactive and detail-oriented Full-Stack Developer with 2
-                    years of practical experience building scalable and
-                    responsive web applications. Specializing in React, Next.js,
-                    Angular, Node.js, and modern web technologies.
+
+                    <strong>Full-Stack Developer with 3 years of experience</strong> building
+                    <strong>scalable and high-performance web applications</strong> using modern technologies like
+                    <strong>React, Next.js, Angular, and Node.js</strong>.
+
+                    <br /><br />
+
+                    Currently expanding expertise into <strong>Flutter</strong> for mobile application development.
+                    Hands-on experience with <strong>PostgreSQL and MongoDB</strong> through project-based learning and technical assignments,
+                    with a strong focus on <strong>clean architecture and continuous skill growth</strong>.
+
                   </p>
 
                   {/* Resume Download and Video Introduction Section */}
@@ -1127,7 +1134,7 @@ function App() {
           </p>
         </div>
       </>
-    </div>
+    </div >
   );
 }
 
