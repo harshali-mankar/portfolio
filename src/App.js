@@ -89,7 +89,7 @@ function App() {
                   <div className="row mt-4">
                     <div className="col-12 mb-3 d-flex gap-3 justify-content-center">
                       <a
-                        href="https://drive.google.com/file/d/1aCZbe52kKwxnfHh_Z2yijegVJeimPe0j/view?usp=drive_link"
+                        href="https://drive.google.com/file/d/1FQ7hiKG7n-zZ0f76tVSYemRx7XF5H6c6/view"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-primary btn-sm"
