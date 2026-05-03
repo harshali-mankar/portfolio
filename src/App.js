@@ -142,9 +142,8 @@ function App() {
                 </p>
 
                 <p className="lead mb-3">
-                  With 10 years of teaching experience, I excel at conveying
-                  complex technical concepts and fostering collaborative
-                  learning environments.
+                  Experienced in conveying complex technical concepts and fostering collaborative learning environments. Delivered lectures on core IT subjects and guided students in programming (Java, Python, C++, MySQL).
+
                 </p>
 
                 <div className="row">
