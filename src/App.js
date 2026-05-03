@@ -188,14 +188,37 @@ function App() {
                       Oct 2024 - Present · 1 year 8 months
                     </h6>
                     <p className="card-text">
-                      I have had the opportunity to work on Angular and Node.js
-                      projects, and currently, I'm contributing to a project
-                      using Node.js and React.js. I have worked extensively on
-                      both the admin panel frontend and backend. As these are
-                      internal systems, they are not accessible publicly via a
-                      link. However, I can demonstrate my work in person by
-                      logging into the system and explaining the functionalities
-                      I have developed.
+                      <ul>
+                        <li>
+                          Initially worked on an Angular-based project for ~2 months after joining,
+                          contributing to frontend development and understanding enterprise workflows.
+                        </li>
+                        <li>
+                          Currently focused on building scalable applications using React, Next.js, and TypeScript.
+                        </li>
+                        <li>
+                          Developing DGCA-compliant aviation crew management systems.
+                        </li>
+                        <li>
+                          Built modules for flight duty tracking, training management, and fleet data handling.
+                        </li>
+                        <li>
+                          Designed and implemented admin panels with validations, reporting features, and secure authentication.
+                        </li>
+                        <li>
+                          Integrated APIs using Swagger/OpenAPI for efficient frontend-backend communication.
+                        </li>
+                        <li>
+                          Collaborated with clients and cross-functional teams for feature delivery.
+                        </li>
+                      </ul>
+                      <h4>Skill Enhancement & Learning</h4>
+
+                      <ul>
+                        <li>Working with MongoDB and PostgreSQL to strengthen backend/database skills.</li>
+                        <li>Exploring cross-platform development using Flutter.</li>
+                        <li>Currently preparing for AWS Certification (learning cloud architecture & services).</li>
+                      </ul>
                     </p>
                   </div>
                 </div>
@@ -255,22 +278,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="col-12 mb-4">
-                <div className="card">
-                  <div className="card-body">
-                    <h5 className="card-title">
-                      VIVA College, Mumbai - Assistant Professor
-                    </h5>
-                    <h6 className="card-subtitle mb-2 text-muted">
-                      2012 - 2022 [10 Years]
-                    </h6>
-                    <p className="card-text">
-                      Taught various IT subjects, demonstrating strong
-                      communication and coordination skills.
-                    </p>
-                  </div>
-                </div>
-              </div>
+
             </div>
           </section>
           <section className="scroll-panel mt-4" id="portfolio">
@@ -309,165 +317,7 @@ function App() {
                   </div>
 
                   <div className="carousel-inner">
-                    {/* Slide 1 - Original 3 Projects */}
-                    <div className="carousel-item active">
-                      <div className="row">
-                        <div className="col-md-4 mb-4">
-                          <div className="card h-100 shadow-sm border-primary">
-                            <div className="card-header bg-primary text-white text-center">
-                              <h5 className="mb-0">🛒 E-commerce Platform</h5>
-                            </div>
-                            <div className="card-body p-0">
-                              <img
-                                src={portfolio1}
-                                alt="Saawree E-commerce Website"
-                                className="card-img-top"
-                                style={{ height: "200px", objectFit: "cover" }}
-                              />
-                              <div className="p-3">
-                                <h5 className="card-title text-primary">
-                                  Saawree E-commerce
-                                </h5>
-                                <p className="card-text text-muted">
-                                  A comprehensive e-commerce platform with
-                                  inventory management, user authentication, and
-                                  payment processing.
-                                </p>
-                                <div className="d-flex flex-wrap gap-1 mb-3">
-                                  <span className="badge bg-light text-dark border">
-                                    React
-                                  </span>
-                                  <span className="badge bg-light text-dark border">
-                                    Next.js
-                                  </span>
-                                  <span className="badge bg-light text-dark border">
-                                    SQL Server
-                                  </span>
-                                  <span className="badge bg-light text-dark border">
-                                    Web API
-                                  </span>
-                                </div>
-                                <div className="d-grid">
-                                  <a
-                                    href="https://saawree.com"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="btn btn-outline-primary"
-                                  >
-                                    <i className="fas fa-external-link-alt me-2"></i>
-                                    View Live Project
-                                  </a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div className="col-md-4 mb-4">
-                          <div className="card h-100 shadow-sm border-success">
-                            <div className="card-header bg-success text-white text-center">
-                              <h5 className="mb-0">⚡ React Application</h5>
-                            </div>
-                            <div className="card-body p-0">
-                              <img
-                                src={portfolio2}
-                                alt="React Tailwind Project"
-                                className="card-img-top"
-                                style={{ height: "200px", objectFit: "cover" }}
-                              />
-                              <div className="p-3">
-                                <h5 className="card-title text-success">
-                                  React Tailwind Project
-                                </h5>
-                                <p className="card-text text-muted">
-                                  Modern React application built with
-                                  TailwindCSS for responsive design and optimal
-                                  user experience.
-                                </p>
-                                <div className="d-flex flex-wrap gap-1 mb-3">
-                                  <span className="badge bg-light text-dark border">
-                                    React
-                                  </span>
-                                  <span className="badge bg-light text-dark border">
-                                    TailwindCSS
-                                  </span>
-                                  <span className="badge bg-light text-dark border">
-                                    JavaScript
-                                  </span>
-                                  <span className="badge bg-light text-dark border">
-                                    Responsive
-                                  </span>
-                                </div>
-                                <div className="d-grid">
-                                  <a
-                                    href="https://harshali-mankar.github.io/react-tailwind/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="btn btn-outline-success"
-                                  >
-                                    <i className="fas fa-external-link-alt me-2"></i>
-                                    View Live Project
-                                  </a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div className="col-md-4 mb-4">
-                          <div className="card h-100 shadow-sm border-info">
-                            <div className="card-header bg-info text-white text-center">
-                              <h5 className="mb-0">📋 Assignment Project</h5>
-                            </div>
-                            <div className="card-body p-0">
-                              <img
-                                src={portfolio3}
-                                alt="Akeshya Assignment Project"
-                                className="card-img-top"
-                                style={{ height: "200px", objectFit: "cover" }}
-                              />
-                              <div className="p-3">
-                                <h5 className="card-title text-info">
-                                  Akeshya Assignment
-                                </h5>
-                                <p className="card-text text-muted">
-                                  A comprehensive assignment project
-                                  demonstrating full-stack development skills
-                                  and modern web technologies.
-                                </p>
-                                <div className="d-flex flex-wrap gap-1 mb-3">
-                                  <span className="badge bg-light text-dark border">
-                                    Full-Stack
-                                  </span>
-                                  <span className="badge bg-light text-dark border">
-                                    Modern Web
-                                  </span>
-                                  <span className="badge bg-light text-dark border">
-                                    Responsive
-                                  </span>
-                                  <span className="badge bg-light text-dark border">
-                                    Interactive
-                                  </span>
-                                </div>
-                                <div className="d-grid">
-                                  <a
-                                    href="https://harshali-mankar.github.io/akeshya-assignment/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="btn btn-outline-info"
-                                  >
-                                    <i className="fas fa-external-link-alt me-2"></i>
-                                    View Live Project
-                                  </a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Slide 2 - 3 Aviation Projects */}
+                    {/* Slide 1 - 3 Aviation Projects */}
                     <div className="carousel-item">
                       <div className="row">
                         <div className="col-md-4 mb-4">
@@ -564,7 +414,7 @@ function App() {
                                 </div>
                                 <div className="d-grid">
                                   <a
-                                    href="#!"
+                                    href="#portfolio"
                                     className="btn btn-outline-danger"
                                   >
                                     <i className="fas fa-external-link-alt me-2"></i>
@@ -633,61 +483,173 @@ function App() {
                         </div>
                       </div>
                     </div>
-
-                    {/* Slide 3 - Coding Keeda Project */}
-                    <div className="carousel-item">
+                    {/* Slide 2 - Original 3 Projects */}
+                    <div className="carousel-item active">
                       <div className="row">
+
                         <div className="col-md-4 mb-4">
-                          <div className="card h-100 shadow-sm border-dark">
-                            <div className="card-header bg-dark text-white text-center">
-                              <h5 className="mb-0">📱 Codingkeeda | Web App</h5>
+                          <div className="card h-100 shadow-sm border-info">
+                            <div className="card-header bg-info text-white text-center">
+                              <h5 className="mb-0">📋 Assignment Project</h5>
                             </div>
                             <div className="card-body p-0">
                               <img
-                                src={portfolio7}
-                                alt="Coding Keeda Website"
+                                src={portfolio3}
+                                alt="Akeshya Assignment Project"
                                 className="card-img-top"
                                 style={{ height: "200px", objectFit: "cover" }}
                               />
                               <div className="p-3">
-                                <h5 className="card-title text-dark">
-                                  Coding Keeda Technologies
+                                <h5 className="card-title text-info">
+                                  Akeshya Assignment
                                 </h5>
                                 <p className="card-text text-muted">
-                                  Portfolio / Service Website for a tech company
-                                  offering web development and SEO services,
-                                  focused on helping small businesses go online.
+                                  A comprehensive assignment project
+                                  demonstrating full-stack development skills
+                                  and modern web technologies.
                                 </p>
                                 <div className="d-flex flex-wrap gap-1 mb-3">
                                   <span className="badge bg-light text-dark border">
-                                    Angular
+                                    Full-Stack
                                   </span>
                                   <span className="badge bg-light text-dark border">
-                                    Chart.js
+                                    Modern Web
                                   </span>
                                   <span className="badge bg-light text-dark border">
-                                    REST API
+                                    Responsive
                                   </span>
                                   <span className="badge bg-light text-dark border">
-                                    Data Viz
+                                    Interactive
                                   </span>
                                 </div>
                                 <div className="d-grid">
                                   <a
+                                    href="https://harshali-mankar.github.io/akeshya-assignment/"
                                     target="_blank"
-                                    href="https://www.codingkeeda.com/"
-                                    className="btn btn-outline-dark" rel="noreferrer"
+                                    rel="noopener noreferrer"
+                                    className="btn btn-outline-info"
                                   >
                                     <i className="fas fa-external-link-alt me-2"></i>
-                                    View Project
+                                    View Live Project
                                   </a>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
+                        <div className="col-md-4 mb-4">
+                          <div className="card h-100 shadow-sm border-primary">
+                            <div className="card-header bg-primary text-white text-center">
+                              <h5 className="mb-0">🛒 E-commerce Platform</h5>
+                            </div>
+                            <div className="card-body p-0">
+                              <img
+                                src={portfolio1}
+                                alt="Saawree E-commerce Website"
+                                className="card-img-top"
+                                style={{ height: "200px", objectFit: "cover" }}
+                              />
+                              <div className="p-3">
+                                <h5 className="card-title text-primary">
+                                  Saawree E-commerce
+                                </h5>
+                                <p className="card-text text-muted">
+                                  A comprehensive e-commerce platform with
+                                  inventory management, user authentication, and
+                                  payment processing.
+                                </p>
+                                <div className="d-flex flex-wrap gap-1 mb-3">
+                                  <span className="badge bg-light text-dark border">
+                                    React
+                                  </span>
+                                  <span className="badge bg-light text-dark border">
+                                    Next.js
+                                  </span>
+                                  <span className="badge bg-light text-dark border">
+                                    SQL Server
+                                  </span>
+                                  <span className="badge bg-light text-dark border">
+                                    Web API
+                                  </span>
+                                </div>
+                                <div className="d-grid">
+                                  <a
+                                    href="https://saawree.com/readystock/jewellery/revas-ad"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="btn btn-outline-primary"
+                                  >
+                                    <i className="fas fa-external-link-alt me-2"></i>
+                                    View Live Project
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+
+
+
+                        <div className="col-md-4 mb-4">
+                          <div className="card h-100 shadow-sm border-success">
+                            <div className="card-header bg-success text-white text-center">
+                              <h5 className="mb-0">⚡ React Application</h5>
+                            </div>
+                            <div className="card-body p-0">
+                              <img
+                                src={portfolio2}
+                                alt="React Tailwind Project"
+                                className="card-img-top"
+                                style={{ height: "200px", objectFit: "cover" }}
+                              />
+                              <div className="p-3">
+                                <h5 className="card-title text-success">
+                                  React Tailwind Project
+                                </h5>
+                                <p className="card-text text-muted">
+                                  Modern React application built with
+                                  TailwindCSS for responsive design and optimal
+                                  user experience.
+                                </p>
+                                <div className="d-flex flex-wrap gap-1 mb-3">
+                                  <span className="badge bg-light text-dark border">
+                                    React
+                                  </span>
+                                  <span className="badge bg-light text-dark border">
+                                    TailwindCSS
+                                  </span>
+                                  <span className="badge bg-light text-dark border">
+                                    JavaScript
+                                  </span>
+                                  <span className="badge bg-light text-dark border">
+                                    Responsive
+                                  </span>
+                                </div>
+                                <div className="d-grid">
+                                  <a
+                                    href="https://harshali-mankar.github.io/react-tailwind/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="btn btn-outline-success"
+                                  >
+                                    <i className="fas fa-external-link-alt me-2"></i>
+                                    View Live Project
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
                       </div>
                     </div>
+
+
+
+
                   </div>
 
                   <button
