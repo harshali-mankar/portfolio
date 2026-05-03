@@ -1,7 +1,7 @@
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import emailjs from "@emailjs/browser";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 const Contact = () => {
   const SERVICE_ID = "service_i22eil7";
   const TEMPLATE_ID = "template_2v7h5ds";

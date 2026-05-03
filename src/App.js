@@ -10,7 +10,6 @@ import {
   faInstagram,
   faFacebook,
   faGithub,
-  faFontAwesome,
 } from "@fortawesome/free-brands-svg-icons";
 
 import imgTag from "./../src/harshali-mankar.png";
@@ -22,7 +21,6 @@ import portfolio5 from "./../src/flyX.jpeg";
 import portfolio6 from "./../src/vims.jpeg";
 import portfolio7 from "./../src/codingkeeda.png";
 
-import Contact from "./contact-from";
 
 function App() {
   return (
@@ -514,7 +512,7 @@ function App() {
                                   <a
                                     target="_blank"
                                     href="https://trainx.aerodutypro.in/"
-                                    className="btn btn-outline-warning"
+                                    className="btn btn-outline-warning" rel="noreferrer"
                                   >
                                     <i className="fas fa-external-link-alt me-2"></i>
                                     View Project
@@ -566,7 +564,7 @@ function App() {
                                 </div>
                                 <div className="d-grid">
                                   <a
-                                    href="#"
+                                    href="#!"
                                     className="btn btn-outline-danger"
                                   >
                                     <i className="fas fa-external-link-alt me-2"></i>
@@ -623,7 +621,7 @@ function App() {
                                   <a
                                     target="_blank"
                                     href="https://vims-ui.kraftnexus.in/"
-                                    className="btn btn-outline-secondary"
+                                    className="btn btn-outline-secondary" rel="noreferrer"
                                   >
                                     <i className="fas fa-external-link-alt me-2"></i>
                                     View Project
@@ -678,7 +676,7 @@ function App() {
                                   <a
                                     target="_blank"
                                     href="https://www.codingkeeda.com/"
-                                    className="btn btn-outline-dark"
+                                    className="btn btn-outline-dark" rel="noreferrer"
                                   >
                                     <i className="fas fa-external-link-alt me-2"></i>
                                     View Project
