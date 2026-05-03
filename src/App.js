@@ -187,7 +187,7 @@ function App() {
                       KraftNexus TECH LLP, Mumbai - Full-stack Developer
                     </h5>
                     <h6 className="card-subtitle mb-2 text-muted">
-                      Oct 2024 - Present · 10 months
+                      Oct 2024 - Present · 1 year 8 months
                     </h6>
                     <p className="card-text">
                       I have had the opportunity to work on Angular and Node.js
