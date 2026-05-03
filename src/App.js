@@ -73,8 +73,8 @@ function App() {
                   </h1>
                   <p className="lead">
 
-                    <strong>Full-Stack Developer with 3 years of experience</strong> building
-                    <strong>scalable and high-performance web applications</strong> using modern technologies like
+                    <strong>Full-Stack Developer with 3 years of experience</strong>{" "}building
+                    <strong>scalable and high-performance web applications</strong>{" "}using modern technologies like
                     <strong>React, Next.js, Angular, and Node.js</strong>.
 
                     <br /><br />
