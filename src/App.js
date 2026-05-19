@@ -236,7 +236,117 @@ function App() {
                   </div>
                 </div>
               </div>
+              <div className="col-12 mb-4">
+                <div className="card">
+                  <div className="card-body">
+                    <h3 className="text-center mb-4">
+                      <strong>PERSONAL PROJECTS</strong>
+                    </h3>
 
+                    {/* CodingKeeda Project */}
+                    <h5 className="card-title">
+                      <a href="https://www.codingkeeda.com" target="_blank">www.codingkeeda.com</a> — Modern Frontend & SEO Learning Platform
+                    </h5>
+
+                    <h6 className="card-subtitle mb-2 text-muted">
+                      Jan 2026 – Present
+                    </h6>
+
+                    <p className="mb-2">
+                      <strong>Tech Stack:</strong> React, PHP, Next.js, Tailwind CSS, JSON,
+                      Shared Hosting
+                    </p>
+
+                    <ul>
+                      <li>
+                        Built a custom hybrid frontend solution using React + PHP with
+                        server-side rendering concepts for improved SEO and performance.
+                      </li>
+
+                      <li>
+                        Designed and developed the platform mainly for research,
+                        experimentation, portfolio showcasing, and modern frontend skill
+                        improvement.
+                      </li>
+
+                      <li>
+                        Avoided heavy WordPress plugins and created a lightweight custom
+                        architecture optimized for low-budget shared hosting environments.
+                      </li>
+
+                      <li>
+                        Developed a fully custom admin panel to manage:
+                        <ul>
+                          <li>SEO meta tags</li>
+                          <li>Dynamic page creation</li>
+                          <li>Menu management</li>
+                          <li>Custom slugs and title updates</li>
+                          <li>Content organization and navigation controls</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        Focused on performance optimization, clean UI structure,
+                        scalability, and SEO-friendly rendering strategies.
+                      </li>
+
+                      <li>
+                        Created reusable frontend components, animation demos, and modern
+                        CSS experiments for learning and educational purposes.
+                      </li>
+                    </ul>
+
+                    <hr className="my-4" />
+
+                    {/* VasaiVirar Project */}
+                    <h5 className="card-title">
+                      <a href="https://www.vasaivirar.org" target="_blank">www.vasaivirar.org</a> — Community Engagement Platform
+                    </h5>
+
+                    <h6 className="card-subtitle mb-2 text-muted">
+                      Jan 2025 – Present
+                    </h6>
+
+                    <p className="mb-2">
+                      <strong>Tech Stack:</strong> WordPress (Fully Custom), PHP,
+                      JavaScript, AI-assisted Development
+                    </p>
+
+                    <ul>
+                      <li>
+                        Developed a fully customized WordPress-based local community
+                        platform without using pre-built themes or heavy plugins.
+                      </li>
+
+                      <li>
+                        Built with AI-assisted development workflows to speed up
+                        customization and experimentation.
+                      </li>
+
+                      <li>
+                        Created features focused on improving local community engagement,
+                        including:
+                        <ul>
+                          <li>Local information sharing</li>
+                          <li>Property listings</li>
+                          <li>Job posting and job search</li>
+                          <li>Buy & Sell marketplace functionality</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        Customized the frontend and backend architecture to maintain
+                        flexibility, lightweight performance, and easy content management.
+                      </li>
+
+                      <li>
+                        Designed the platform to support user interaction, local discovery,
+                        and community-driven content.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
               <div className="col-12 mb-4">
                 <div className="card">
                   <div className="card-body">
