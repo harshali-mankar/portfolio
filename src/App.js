@@ -245,7 +245,7 @@ function App() {
 
                     {/* CodingKeeda Project */}
                     <h5 className="card-title">
-                      <a href="https://www.codingkeeda.com" target="_blank">www.codingkeeda.com</a> — Modern Frontend & SEO Learning Platform
+                      <a href="https://www.codingkeeda.com" target="_blank" rel="noreferrer">www.codingkeeda.com</a> — Modern Frontend & SEO Learning Platform
                     </h5>
 
                     <h6 className="card-subtitle mb-2 text-muted">
@@ -300,7 +300,7 @@ function App() {
 
                     {/* VasaiVirar Project */}
                     <h5 className="card-title">
-                      <a href="https://www.vasaivirar.org" target="_blank">www.vasaivirar.org</a> — Community Engagement Platform
+                      <a href="https://www.vasaivirar.org" target="_blank" rel="noreferrer">www.vasaivirar.org</a> — Community Engagement Platform
                     </h5>
 
                     <h6 className="card-subtitle mb-2 text-muted">
